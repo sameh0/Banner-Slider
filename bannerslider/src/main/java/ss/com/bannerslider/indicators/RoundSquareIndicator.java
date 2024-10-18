@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Build;
 import android.support.v4.content.res.ResourcesCompat;
 
-import ss.com.bannerslider.R;
+import com.ss.bannerslider.R;
 
 
 /**
@@ -17,7 +17,7 @@ public class RoundSquareIndicator extends IndicatorShape {
     public RoundSquareIndicator(Context context, int indicatorSize, boolean mustAnimateChanges) {
         super(context, indicatorSize, mustAnimateChanges);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-            setBackground(ResourcesCompat.getDrawable(getResources(),R.drawable.indicator_round_square_unselected, null));
+            setBackground(ResourcesCompat.getDrawable(getResources(), R.drawable.indicator_round_square_unselected, null));
         } else {
             setBackgroundDrawable(getResources().getDrawable(R.drawable.indicator_round_square_unselected));
         }

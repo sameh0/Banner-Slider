@@ -4,6 +4,8 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 
+import com.ss.bannerslider.R;
+
 /**
  * @author S.Shahini
  * @since 3/5/18

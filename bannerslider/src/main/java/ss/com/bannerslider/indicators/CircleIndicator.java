@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Build;
 import android.support.v4.content.res.ResourcesCompat;
 
-import ss.com.bannerslider.R;
+import com.ss.bannerslider.R;
 
 
 /**

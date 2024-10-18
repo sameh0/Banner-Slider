@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="ss.com.bannerslidersample">
+    xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-sdk tools:overrideLibrary="android.support.customtabs" android:minSdkVersion="15"/>
     <application
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" android:label="Banner Slider">
+        <activity android:exported="true" android:name="ss.com.bannerslidersample.MainActivity" android:label="Banner Slider">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

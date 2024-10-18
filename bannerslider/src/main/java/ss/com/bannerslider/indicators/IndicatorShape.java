@@ -7,7 +7,8 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import ss.com.bannerslider.R;
+import com.ss.bannerslider.R;
+
 
 /**
  * @author S.Shahini

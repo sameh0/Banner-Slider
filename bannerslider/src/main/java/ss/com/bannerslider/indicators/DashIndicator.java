@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v4.content.res.ResourcesCompat;
 import android.widget.LinearLayout;
 
-import ss.com.bannerslider.R;
+import com.ss.bannerslider.R;
 
 
 /**

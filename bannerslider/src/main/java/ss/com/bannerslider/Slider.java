@@ -17,6 +17,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
+import com.ss.bannerslider.R;
+
 import java.util.Timer;
 import java.util.TimerTask;
 

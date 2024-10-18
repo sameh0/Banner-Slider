@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         SeekBar indicatorSizeSeekBar = findViewById(R.id.seekbar_indicator_size);
-        indicatorSizeSeekBar.setMax(getResources().getDimensionPixelSize(R.dimen.max_slider_indicator_size));
+        indicatorSizeSeekBar.setMax(getResources().getDimensionPixelSize(com.ss.bannerslider.R.dimen.max_slider_indicator_size));
         indicatorSizeSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
